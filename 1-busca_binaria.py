@@ -14,7 +14,14 @@ def buscaBinaria(lista, numeroEscolhido): #A busca binária consiste em procurar
         else:
             fim = meio
 
-minha_lista = [1,2,3,4]
-#Como são 4 elementos faz log₂4 = 2, então caso tente qualquer número será no máximo 2
+minha_lista = [1, 2, 3, 4, 5, 6, 7, 8]
+#Como são 8 elementos faz log₂8 = 3, então caso tente qualquer número será no máximo 2
+buscaBinaria(minha_lista, 1)
+buscaBinaria(minha_lista, 2)
+buscaBinaria(minha_lista, 3)
 buscaBinaria(minha_lista, 4)
+buscaBinaria(minha_lista, 5)
+buscaBinaria(minha_lista, 6)
+buscaBinaria(minha_lista, 7)
+buscaBinaria(minha_lista, 8)
 #Como busca binária é O(Log n)
